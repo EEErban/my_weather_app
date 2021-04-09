@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Weather App</title>
+    <title>My Weather Dashboard</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand mx-auto" href="#">
+            <div class="text-center">My Weather Dashboard</div>
+        </a>
+    </nav>
+
+    <div class="search-container container">
+        <div class="row">
+            <div class="col-4">
+                <div>Search for a city:</div>
+                <input type="text" placeholder="City Name" name="search" id="city">
+                <button class="btn btn-primary btn-sm" id="search-button">
+                    <i class="material-icons">search</i>
+                </button>
     
 </body>
 </html>
