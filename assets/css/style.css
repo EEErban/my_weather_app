@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  #main-weather {
+    font-size: 15px;
+  }
+  
+  body {
+    background-color: aquamarine;
+    margin: 0;
+  }
+  
